@@ -1,0 +1,19 @@
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-track {
+  display: flex;
+  animation: scroll 50s linear infinite;
+  min-width: 200%; /* Ensures smooth infinite scrolling */
+}
+
+/* Pause on hover */
+.logo-carousel:hover .logo-track {
+  animation-play-state: paused;
+}
