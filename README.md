@@ -15,4 +15,5 @@ Project Setup
 //using vite to build an app
 //styling components using tailwindcss framework
 //for animation-->installing framer-motion
+//images downloaded from freepik.com
 //deploy the code-->netlify via Github
